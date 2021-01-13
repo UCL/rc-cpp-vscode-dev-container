@@ -11,7 +11,7 @@ To get setup follow the steps here https://code.visualstudio.com/docs/remote/con
    * Open VS Code and add the `Remote - Containers` extension `ms-vscode-remote.remote-containers`
    * Click on the green remote containers status button at the bottom left of the window
    * Then to check everything works select the `Remote-Containers: Try a Sample...` and the C++ example
-   * Go through the README.md and suggested things to try to familierise yourself  
+   * Go through the README.md and suggested things to try to familiarise yourself  
  
 To use the Ubuntu 20.04 dev container you should clone this repository to your host machine and then copy the `.devcontainer` folder including the devcontainer.json and Dockerfile files inside it to the cmake project you want to develop:
 `cp -r .devcontainer /path/to/YourCMakeProject/.`
