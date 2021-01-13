@@ -14,7 +14,7 @@ To get setup follow the steps here https://code.visualstudio.com/docs/remote/con
    * Go through the README.md and suggested things to try to familiarise yourself  
  
 To use the Ubuntu 20.04 dev container you should clone this repository to your host machine and then copy the `.devcontainer` folder including the devcontainer.json and Dockerfile files inside it to the cmake project you want to develop:
-`cp -r .devcontainer /path/to/YourCMakeProject/.`
+`cp -r .devcontainer /path/to/YourCMakeProject/`.
 
 You can then open `YourCMakeProject` inside VS Code and it will ask if you want to reopen and build the project in the dev container that we defined. Once you have done that you can build, compile, debug and use the VS Code terminal from within the dev container. Try opening a VS Code terminal and typing `cat /etc/os-release` and you should see the the OS is Ubuntu 20.04.1 LTS (Focal Fossa). 
   
