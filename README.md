@@ -13,7 +13,7 @@ To get setup follow the steps here https://code.visualstudio.com/docs/remote/con
    * Then to check everything works select the `Remote-Containers: Try a Sample...` and the C++ example
    * Go through the README.md and suggested things to try to familiarise yourself  
  
-To use this Ubuntu 20.04 dev container, you should configure this repository as a submodule of your main git repository.
+To use this Ubuntu 20.04 dev container, you should configure this repository as a submodule of your main git repository or download the `.devcontainer` folder and include it in the root directory of your project.
 You can then open `YourCMakeProject` inside VS Code and it will ask if you want to reopen and build the project in the dev container that we defined. Once you have done that you can build, compile, debug and use the VS Code terminal from within the dev container. Try opening a VS Code terminal and typing `cat /etc/os-release` and you should see the the OS is Ubuntu 20.04.5 LTS (Focal Fossa). 
   
 ### Using docker without VS Code
