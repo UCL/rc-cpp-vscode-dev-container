@@ -20,7 +20,7 @@
 	"features": {
 		// "ghcr.io/devcontainers/features/git:1": {} // // build the version corresponding to the default feature defined for current os image
 		// "ghcr.io/devcontainers/features/git": "2.39" // build a newer version of git from source
-		"ghcr.io/devcontainers/features/git": "latest" // build a newer version of git from source
+		// "ghcr.io/devcontainers/features/git": "latest" // build a newer version of git from source
 	},
 	// Configure tool-specific properties.
 	"customizations": {
