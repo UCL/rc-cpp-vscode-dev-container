@@ -17,7 +17,7 @@ To get setup follow the steps here https://code.visualstudio.com/docs/remote/con
 To use this dev container, you can
 
 - download the `.devcontainer` folder and include it in the root directory of your project
-- configure this repository as a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) of your main git repository
+- Or configure this repository as a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) of your main git repository
 
 Once you have the `.devcontainer` folder in the root directory of your project, you can then open the folder inside VS Code and it should ask if you want to reopen and build the project in the container. To test that it's working, try opening a VS Code terminal and running the command `cat /etc/os-release` and you should see the OS version is Ubuntu 22.04.
   
